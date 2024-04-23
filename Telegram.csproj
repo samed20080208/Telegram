@@ -1,0 +1,35 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="25-252939_thumbtack-pin-icon-white-transparent.png" />
+    <None Remove="download %281%29.png" />
+    <None Remove="download.png" />
+    <None Remove="menu %281%29.png" />
+    <None Remove="more.png" />
+    <None Remove="search.png" />
+    <None Remove="sound.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="25-252939_thumbtack-pin-icon-white-transparent.png" />
+    <Resource Include="download (1).png" />
+    <Resource Include="download.png" />
+    <Resource Include="menu (1).png" />
+    <Resource Include="more.png" />
+    <Resource Include="search.png" />
+    <Resource Include="sound.png" />
+  </ItemGroup>
+
+</Project>
